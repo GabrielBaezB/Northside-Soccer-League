@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .title {
     margin:1px;
     font-size: 58px;
@@ -36,10 +35,7 @@
 .texto {
     padding-left: 15px;
 }
-.contenido {
-    padding-left: 150px;
-    margin-left: 50px;
-}
+
 
 .sub_portada {
     background: black;
@@ -53,11 +49,12 @@
 .logo {
     float: left;
     margin-top: -1px;
-    width: 150px;
-    margin-right: 50px;
+    width: 450px;
+    
 }
 table {
     width: 50%;
+    margin-left: 30%;
 }
 
 table,
@@ -65,10 +62,20 @@ th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
+    font-size: 25px;
 }
 
 th,
 td {
-    padding: 10px;
+    padding: 5px;
     text-align: left;
+}
+
+
+.contenido{
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-size: 25px;
+
 }
