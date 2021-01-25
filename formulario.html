@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/formularioStyle.css">
+    <title>Northside Youth Soccer League</title>
+</head>
+<body>
+       <h1 class="title">Northside Youth Soccer League</h1>
+        <div class="menu">   
+        <a class="navegador"  href="index.html">Home</a>
+        <a href="calendario.html" class="navegador">Juegos</a>
+        <a href="reglas.html" class="navegador">Reglas</a>
+        <a class="navegador" href="formulario.html" style="background-color: green;">Registro</a>
+        <a class="navegador" href="about.html">About</a>
+        <a class="navegador" href="contact.html">Contact</a>
+        
+        
+        </div>
+         <header class="img__cabecera"></header>
+    
+       <div class="sub_portada">           
+       <p class="sub_title">Formulario de inscripción</p>
+     </div>  
+      
+    <img src="img/nysl_logo.png" alt="" class="logo">
+
+
+ <main class="main">
+        <div class="card">
+            <div class="card__header">
+                <h1 class="title__form">Formulario de Registro</h1>
+            </div>
+            <div class="card__body">
+                <form action="show_data.html" method="GET">
+                    <div class="user_name">
+                        <label for="">Nombre de jugador:</label>
+                        <input type="text" class="bordebajo" name="name" value="" required>
+                        <label for="">Apellido:</label>
+                        <input type="text"  class="bordebajo" name="last" value="" required>
+                    </div>  
+                    <div class="user_direccion">
+                         <label for="">Direccion:</label>
+                        <input type="text" class="bordebajo" name="adress" value="" required>
+                   </div>
+                    <div class="user_city">
+                         <label for="">Ciudad:</label>
+                        <input type="text" class="bordebajo" name="city" value="" required>
+                        <label for="">Código Postal:</label>
+                        <input type="text" class="bordebajo" name="postal" value="" required>
+                    </div>
+                    <div class="user_date">
+                         <label for="">Fecha de nacimiento:</label>
+                        <input type="date" name="birthday" value="birthday" required>
+                        <label for="">Género:</label>
+                        <label for="">Mujer</label>
+                        <input type="checkbox" name="genero" value="woman">
+                        <label for="">Hombre</label>
+                        <input type="checkbox" name="genero" value="man">
+                    </div>
+
+                    <div class="user_grado">
+                        <label for="">Grado:</label>
+                         <input type="checkbox"value=" preescolar" name="grado" id=""><label for="">Preescolar</label>
+                         <input type="checkbox"value="1o" name="grado" id="" ><label for="">1o</label>
+                         <input type="checkbox"value="2o" name="grado" id="" ><label for="">2o</label>
+                         <input type="checkbox"value="3o" name="grado" id="" ><label for="">3o</label>
+                         <input type="checkbox"value="4o" name="grado" id="" ><label for="">4o</label>
+                         <input type="checkbox"value="5o" name="grado" id="" ><label for="">5o</label>
+                    </div>
+
+                    <div>
+                    <h3>¿De que escuela vives mas cerca?</h3>
+                    <h4>Escuela más cercana:</h4>
+                    
+                    <div class="checkbox-group required">
+                    <div class="grid-container">
+                        <div class="item1">
+                         <input type="checkbox" value="katzenmaier" name="zona_juego" id=""><label class="check">AJ Katzenmaier</label><br>
+                         <input type="checkbox" value="greenbay" name="zona_juego" id=""><label class="check">Greenbay</label><br>
+                         <input type="checkbox" value="howard" name="zona_juego" id=""><label class="check">Howard A Yeager</label>
+                        </div>
+                        <div class="item2">
+                         <input type="checkbox" value="marjorie" name="zona_juego" id=""><label class="check">Marjorie P Hart</label><br>
+                         <input type="checkbox" value="north" name="zona_juego" id=""><label class="check">North Elementary</label><br>
+                         <input type="checkbox" value="south" name="zona_juego" id=""><label class="check">South Elementary</label> 
+                   </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</h3>
+                    <div class="grid-container">
+                         <div class="item1">
+                         <input type="checkbox" value="delantero" name="position_game" id=""><label for="">Delantero</label><br>
+                         <input type="checkbox" value="portero" name="position_game" id=""><label for="">Portero</label>
+                         </div>
+                         <div class="item2">
+                         <input type="checkbox" value="mediocampo" name="position_game" id=""><label for="">mediocampo</label><br>
+                         <input type="checkbox" value="defensa" name="position_game" id=""><label for="">defensa</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Tamaño uniforme:</h3>
+                    <div class="grid-container">
+                        <div class="item1">
+                        <input type="checkbox" value="nino_p" name="talla" id=""><label for="">Niño P</label><br>
+                        <input type="checkbox" value="nino_m" name="talla" id=""><label for="">Niño M</label><br>
+                        <input type="checkbox" value="nino_g" name="talla" id=""><label for="">Niño G</label><br>
+                        <input type="checkbox" value="pequeno" name="talla" id=""><label for="">Pequeño</label>
+                         </div>
+                         <div class="item2">
+                         <input type="checkbox" value="mediano" name="talla" id=""><label for="">Mediano</label><br>
+                         <input type="checkbox" value="grande" name="talla" id=""><label for="">Grande</label><br>
+                         <input type="checkbox" value="extra_grande" name="talla" id=""><label for="">Extra-Grande</label>
+                    </div>
+                        </div>
+                    </div><br>
+
+                    <div>
+                        <h3>Permiso para jugar</h3>
+                    
+                            <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.</p>
+Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+que he leído la política de cancelación y acepto sus términos.
+                        </div>
+                    <div class="user_name">
+                        <label for="">Firma Padre/Tutor:</label>
+                        <input type="text" class="bordebajo" value="" name="firma" required>
+                        <label for="">Fecha:</label>
+                        <input type="date" class="bordebajo" value="" name="firma" required>
+                    </div>
+                    </div>
+<br>
+                    <div class="user_button">
+                        <button type="submit">Registrar</button>
+                    </div>
+                </form>
+
+            </div>
+           
+        </div>
+    </main>
+    </body>
+</html>

@@ -16,7 +16,6 @@
  }
 
 .navegador{
-        
          display: inline-block;
          border-radius: 7%;
          border: black 1px;
@@ -63,6 +62,7 @@ td {
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 25px;
+
 }
 
 th,

@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    width: 70%;
+    height: 80vh;
+}
+
+.card__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+
+}
+
+.card__body {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.title__form {
+    text-align: center;
+}
+
+
+input {
+    margin-top: 2%;
+    padding: 3px;
+}
+
+.user_direccion>input {
+    width: 66%;
+    box-sizing: border-box;
+}
+
+.user_name>input {
+    width: 32,5%;
+    box-sizing: border-box;
+}
+.user_city>input {
+    margin-left: 2%;
+    width: 32,5%;
+    box-sizing: border-box;
+}
+.user_date>input {
+    margin-left: 2%;
+    width: 32,5%;
+    box-sizing: border-box;
+}
+.user_grado>input {
+    margin-left: 2%;
+    width: 32,5%;
+    box-sizing: border-box;
+}
+
+.bordebajo{
+    border: none;
+   border-bottom: 2px solid black;
+    
+}
+
+.user_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 70px / auto auto auto;
+    grid-gap: 10px;
+    padding: 5px;
+}
+.grid-container>div {
+    text-align: left;
+    padding: 10px 0;
+}
+
+h4, h3{
+    margin: 10px 0px 0px;
+}
+label{
+    padding-left: 25px;
+}
+
+button{
+    border-radius: 7%;
+    font-size: 45px;
+    margin-bottom: 115%;
+}
+
